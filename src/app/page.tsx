@@ -10,7 +10,6 @@ import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloating
 import ProductCardFour from '@/components/sections/product/ProductCardFour';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import TestimonialCardFive from '@/components/sections/testimonial/TestimonialCardFive';
-import FaqBase from '@/components/sections/faq/FaqBase';
 
 export default function LandingPage() {
   return (
@@ -118,21 +117,6 @@ export default function LandingPage() {
       ]}
       title="客戶好評"
       description="來自產業領袖的信任與見證。"
-    />
-  </div>
-
-  <div id="faq" data-section="faq">
-      <FaqBase
-      textboxLayout="default"
-      useInvertedBackground={true}
-      faqs={[
-        { id: "f1", title: "設備保固多久？", content: "全機提供完整保固，並附贈定時檢查服務。" },
-        { id: "f2", title: "如何聯絡維修？", content: "請透過信箱或電話聯繫，我們將於24小時內回應。" },
-        { id: "f3", title: "提供海外銷售嗎？", content: "是的，我們提供完善的全球出口服務與技術安裝。" },
-      ]}
-      title="常見詢問"
-      description="為您解答機械設備與維運問題。"
-      faqsAnimation="slide-up"
     />
   </div>
 
