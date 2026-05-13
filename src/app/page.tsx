@@ -35,7 +35,6 @@ export default function LandingPage() {
         { name: "關於我們", id: "about" },
       ]}
       brandName="鋒源機械"
-      button={{ text: "聯絡我們", href: "#footer" }}
     />
   </div>
 
@@ -142,8 +141,7 @@ export default function LandingPage() {
       logoText="鋒源機械有限公司"
       columns={[
         { title: "關於我們", items: [{ label: "核心理念", href: "#about" }, { label: "品牌故事", href: "#" }] },
-        { title: "產品系列", items: [{ label: "FY 系列", href: "#product" }, { label: "FASP 系列", href: "#product" }] },
-        { title: "聯絡方式", items: [{ label: "04-25232986", href: "tel:0425232986" }, { label: "fungyuan@fungyuan.com", href: "mailto:fungyuan@fungyuan.com" }] },
+        { title: "產品系列", items: [{ label: "FY 系列", href: "#product" }, { label: "FASP 系列", href: "#product" }] }
       ]}
       copyrightText="© 2025 鋒源機械有限公司 | 務實管理與高品質"
     />
