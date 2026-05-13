@@ -9,6 +9,7 @@ import { Roboto } from "next/font/google";
 import { Open_Sans } from "next/font/google";
 import { Figtree } from "next/font/google";
 import { Nunito_Sans } from "next/font/google";
+import { Montserrat } from "next/font/google";
 
 
 
@@ -25,8 +26,13 @@ export const metadata: Metadata = {
 
 
 
-const nunitoSans = Nunito_Sans({
-  variable: "--font-nunito-sans",
+
+const montserrat = Montserrat({
+  variable: "--font-montserrat",
+  subsets: ["latin"],
+});
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
 });
 
@@ -38,7 +44,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
-        <body className={`${nunitoSans.variable} antialiased`}>
+        <body className={`${montserrat.variable} ${inter.variable} antialiased`}>
           
           {children}
           <script
