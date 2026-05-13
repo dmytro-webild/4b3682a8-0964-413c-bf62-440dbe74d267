@@ -127,6 +127,7 @@ export default function LandingPage() {
       title="立即諮詢"
       description="留下您的電子郵件，我們的專業團隊將盡快與您聯繫，協助規劃您的自動化產線需求。"
       tag="合作聯繫"
+      useInvertedBackground={false}
     />
   </div>
 
