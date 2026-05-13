@@ -36,8 +36,6 @@ export default function LandingPage() {
         {
           name: "核心理念",          id: "about"},
         {
-          name: "產品系列",          id: "product"},
-        {
           name: "聯絡我們",          id: "contact"},
       ]}
       brandName="鋒源機械"
