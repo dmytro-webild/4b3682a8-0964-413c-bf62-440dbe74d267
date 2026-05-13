@@ -34,7 +34,6 @@ export default function LandingPage() {
         { name: "首頁", id: "hero" },
         { name: "產品特色", id: "fy-features" },
         { name: "關於我們", id: "about" },
-        { name: "聯絡我們", id: "contact" },
       ]}
       brandName="鋒源機械"
       button={{ text: "諮詢", href: "#contact" }}
