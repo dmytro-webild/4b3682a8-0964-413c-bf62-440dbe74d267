@@ -8,6 +8,7 @@ import { getVisualEditScript } from "@/utils/visual-edit-script";
 import { Roboto } from "next/font/google";
 import { Open_Sans } from "next/font/google";
 import { Figtree } from "next/font/google";
+import { Nunito_Sans } from "next/font/google";
 
 
 
@@ -23,8 +24,9 @@ export const metadata: Metadata = {
 
 
 
-const figtree = Figtree({
-  variable: "--font-figtree",
+
+const nunitoSans = Nunito_Sans({
+  variable: "--font-nunito-sans",
   subsets: ["latin"],
 });
 
@@ -36,7 +38,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
-        <body className={`${figtree.variable} antialiased`}>
+        <body className={`${nunitoSans.variable} antialiased`}>
           
           {children}
           <script
