@@ -35,6 +35,7 @@ export default function LandingPage() {
         { name: "關於我們", id: "about" },
       ]}
       brandName="鋒源機械"
+      button={{ text: "立即諮詢" }}
     />
   </div>
 
