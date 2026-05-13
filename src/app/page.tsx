@@ -10,6 +10,7 @@ import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloating
 import ProductCardFour from '@/components/sections/product/ProductCardFour';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import TestimonialCardFive from '@/components/sections/testimonial/TestimonialCardFive';
+import ContactForm from '@/components/form/ContactForm';
 
 export default function LandingPage() {
   return (
@@ -32,9 +33,10 @@ export default function LandingPage() {
         { name: "首頁", id: "hero" },
         { name: "產品特色", id: "fy-features" },
         { name: "關於我們", id: "about" },
+        { name: "立即諮詢", id: "contact" },
       ]}
       brandName="鋒源機械"
-      button={{ text: "立即諮詢" }}
+      button={{ text: "立即諮詢", href: "#contact" }}
     />
   </div>
 
@@ -117,6 +119,14 @@ export default function LandingPage() {
       ]}
       title="客戶好評"
       description="來自產業領袖的信任與見證。"
+    />
+  </div>
+
+  <div id="contact" data-section="contact">
+    <ContactForm 
+      title="立即諮詢"
+      description="留下您的電子郵件，我們的專業團隊將盡快與您聯繫，協助規劃您的自動化產線需求。"
+      tag="合作聯繫"
     />
   </div>
 
