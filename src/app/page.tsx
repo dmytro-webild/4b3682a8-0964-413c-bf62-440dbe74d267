@@ -53,8 +53,6 @@ export default function LandingPage() {
       description="專業優先、品質優先與服務優先 鋒源以德國尖端機器人技術與務實精神，引領自動化包裝工業。"
       buttons={[
         {
-          text: "探索產品系列",          href: "#product"},
-        {
           text: "聯絡我們",          href: "mailto:fungyuan@fungyuan.com"},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/robotic-equipment-collects-cars-production-line-long-format-shooting-automotive-car-factory-banner_645730-514.jpg?_wi=1"
