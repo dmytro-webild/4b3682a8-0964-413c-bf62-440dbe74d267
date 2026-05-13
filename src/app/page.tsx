@@ -2,8 +2,6 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ContactForm from '@/components/form/ContactForm';
-import FaqBase from '@/components/sections/faq/FaqBase';
 import FeatureCardTwelve from '@/components/sections/feature/FeatureCardTwelve';
 import FooterMedia from '@/components/sections/footer/FooterMedia';
 import HeroLogoBillboard from '@/components/sections/hero/HeroLogoBillboard';
@@ -12,6 +10,7 @@ import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloating
 import ProductCardFour from '@/components/sections/product/ProductCardFour';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import TestimonialCardFive from '@/components/sections/testimonial/TestimonialCardFive';
+import FaqBase from '@/components/sections/faq/FaqBase';
 
 export default function LandingPage() {
   return (
@@ -36,7 +35,6 @@ export default function LandingPage() {
         { name: "關於我們", id: "about" },
       ]}
       brandName="鋒源機械"
-      button={{ text: "聯絡我們", href: "#contact" }}
     />
   </div>
 
@@ -134,17 +132,6 @@ export default function LandingPage() {
       title="常見詢問"
       description="為您解答機械設備與維運問題。"
       faqsAnimation="slide-up"
-    />
-  </div>
-
-  <div id="contact" data-section="contact">
-    <ContactForm 
-      tag="聯絡我們"
-      title="聯絡與諮詢"
-      description="歡迎填寫表單或透過下方資訊聯繫我們。"
-      buttonText="發送諮詢信件"
-      useInvertedBackground={false}
-      onSubmit={(data) => console.log("Consultation form submitted:", data)}
     />
   </div>
 
