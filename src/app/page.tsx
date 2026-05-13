@@ -2,7 +2,6 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import { Gauge, Package, Zap, Cpu, ShieldCheck } from "lucide-react";
 import ContactForm from '@/components/form/ContactForm';
 import FaqBase from '@/components/sections/faq/FaqBase';
 import FeatureCardTwelve from '@/components/sections/feature/FeatureCardTwelve';
@@ -145,6 +144,7 @@ export default function LandingPage() {
       title="發送諮詢信件"
       description="請填寫您的資料，我們將儘速與您聯絡。"
       buttonText="送出信件"
+      useInvertedBackground={false}
       onSubmit={(email) => console.log("Consultation email sent:", email)}
     />
   </div>
