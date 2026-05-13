@@ -45,7 +45,7 @@ export default function LandingPage() {
       background={{ variant: "gradient-bars" }}
       logoText="鋒源機械有限公司"
       description="專業優先、品質優先與服務優先 鋒源以德國尖端機器人技術與務實精神，引領自動化包裝工業。"
-      buttons={[{ text: "聯絡我們", href: "#contact" }]}
+      buttons={[]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DZm6GBhevTmhaJGNXipDviX179/uploaded-1778668282599-8805p6c6.png"
       mediaAnimation="slide-up"
     />
