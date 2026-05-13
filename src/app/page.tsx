@@ -20,12 +20,12 @@ export default function LandingPage() {
         defaultTextAnimation="entrance-slide"
         borderRadius="soft"
         contentWidth="smallMedium"
-        sizing="largeSmallSizeMediumTitles"
+        sizing="largeSizeMediumTitles"
         background="noiseDiagonalGradient"
         cardStyle="layered-gradient"
         primaryButtonStyle="double-inset"
         secondaryButtonStyle="glass"
-        headingFontWeight="semibold"
+        headingFontWeight="normal"
     >
       <ReactLenis root>
   <div id="nav" data-section="nav">
