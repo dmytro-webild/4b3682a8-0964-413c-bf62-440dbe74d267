@@ -143,7 +143,7 @@ export default function LandingPage() {
       tag="聯絡我們"
       title="聯絡與諮詢"
       description="歡迎填寫表單或透過下方資訊聯繫我們。"
-      buttonText="送出信件"
+      buttonText="發送諮詢信件"
       useInvertedBackground={false}
       onSubmit={(data) => console.log("Consultation form submitted:", data)}
     />
