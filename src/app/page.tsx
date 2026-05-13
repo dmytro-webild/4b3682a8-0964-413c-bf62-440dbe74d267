@@ -59,7 +59,7 @@ export default function LandingPage() {
         {
           text: "聯絡我們",          href: "mailto:fungyuan@fungyuan.com"},
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/robotic-equipment-collects-cars-production-line-long-format-shooting-automotive-car-factory-banner_645730-514.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/robotic-equipment-collects-cars-production-line-long-format-shooting-automotive-car-factory-banner_645730-514.jpg?_wi=1"
       mediaAnimation="slide-up"
     />
   </div>
@@ -69,7 +69,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       title="堅持：專業第一、品質第一、服務第一"
       description="我們秉持務實管理，透過與德國 KUKA 機器人整合，實現高精度自動化生產。鋒源機械不僅提供設備，更提供造福產業的自動化解決方案。"
-      imageSrc="http://img.b2bpic.net/free-photo/detail-shot-machinery-factory_1359-268.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/detail-shot-machinery-factory_1359-268.jpg?_wi=1"
     />
   </div>
 
@@ -81,7 +81,7 @@ export default function LandingPage() {
       features={[
         {
           title: "德國精密整合",          description: "與 KUKA 機器人無縫整合，提升精準度。",          phoneOne: {
-            imageSrc: "http://img.b2bpic.net/free-photo/metal-worker-using-machinery-industrial-workshop-generated-by-ai_188544-19969.jpg"},
+            imageSrc: "http://img.b2bpic.net/free-photo/metal-worker-using-machinery-industrial-workshop-generated-by-ai_188544-19969.jpg?_wi=1"},
           phoneTwo: {
             imageSrc: "http://img.b2bpic.net/free-photo/box-conveyor-belt_23-2152001541.jpg"},
         },
@@ -146,11 +146,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       testimonials={[
         {
-          id: "t1",          name: "陳經理",          date: "2024",          title: "生產部主管",          quote: "鋒源的包裝設備效能卓越，且售後服務極為即時。",          tag: "信任",          avatarSrc: "http://img.b2bpic.net/free-photo/man-with-helmet-working-logistic_23-2148886820.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/robotic-equipment-collects-cars-production-line-long-format-shooting-automotive-car-factory-banner_645730-514.jpg",          imageAlt: "professional executive portrait"},
+          id: "t1",          name: "陳經理",          date: "2024",          title: "生產部主管",          quote: "鋒源的包裝設備效能卓越，且售後服務極為即時。",          tag: "信任",          avatarSrc: "http://img.b2bpic.net/free-photo/man-with-helmet-working-logistic_23-2148886820.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/robotic-equipment-collects-cars-production-line-long-format-shooting-automotive-car-factory-banner_645730-514.jpg?_wi=2",          imageAlt: "professional executive portrait"},
         {
-          id: "t2",          name: "林技術長",          date: "2024",          title: "自動化技術部",          quote: "整合性極佳，與我們的現有產線無縫銜接。",          tag: "專業",          avatarSrc: "http://img.b2bpic.net/free-photo/front-view-smiley-young-man-with-helmet_23-2148269289.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/detail-shot-machinery-factory_1359-268.jpg",          imageAlt: "professional executive portrait"},
+          id: "t2",          name: "林技術長",          date: "2024",          title: "自動化技術部",          quote: "整合性極佳，與我們的現有產線無縫銜接。",          tag: "專業",          avatarSrc: "http://img.b2bpic.net/free-photo/front-view-smiley-young-man-with-helmet_23-2148269289.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/detail-shot-machinery-factory_1359-268.jpg?_wi=2",          imageAlt: "professional executive portrait"},
         {
-          id: "t3",          name: "張廠長",          date: "2024",          title: "製造部廠長",          quote: "產量提升顯著，是我們轉型工業4.0的最佳夥伴。",          tag: "品質",          avatarSrc: "http://img.b2bpic.net/free-photo/businesswoman-working-warehouse_329181-12778.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/metal-worker-using-machinery-industrial-workshop-generated-by-ai_188544-19969.jpg",          imageAlt: "professional executive portrait"},
+          id: "t3",          name: "張廠長",          date: "2024",          title: "製造部廠長",          quote: "產量提升顯著，是我們轉型工業4.0的最佳夥伴。",          tag: "品質",          avatarSrc: "http://img.b2bpic.net/free-photo/businesswoman-working-warehouse_329181-12778.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/metal-worker-using-machinery-industrial-workshop-generated-by-ai_188544-19969.jpg?_wi=2",          imageAlt: "professional executive portrait"},
         {
           id: "t4",          name: "王經理",          date: "2024",          title: "供應鏈部",          quote: "設備耐用度高，大幅減少保養停機時間。",          tag: "務實",          avatarSrc: "http://img.b2bpic.net/free-photo/man-solar-panels-plant-using-laptop-improve-solar-cells-efficiency_482257-119894.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-corporate-woman-looks-dreamy-smiles-stands-outside-street-leans-her-head-hands_1258-193990.jpg",          imageAlt: "professional executive portrait"},
         {
