@@ -3,10 +3,9 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import { Gauge, Package, Zap, Cpu, ShieldCheck } from "lucide-react";
-import ContactSplit from '@/components/sections/contact/ContactSplit';
+import ContactForm from '@/components/form/ContactForm';
 import FaqBase from '@/components/sections/faq/FaqBase';
 import FeatureCardTwelve from '@/components/sections/feature/FeatureCardTwelve';
-import FeatureCardNine from '@/components/sections/feature/FeatureCardNine';
 import FooterMedia from '@/components/sections/footer/FooterMedia';
 import HeroLogoBillboard from '@/components/sections/hero/HeroLogoBillboard';
 import MediaAbout from '@/components/sections/about/MediaAbout';
@@ -141,16 +140,12 @@ export default function LandingPage() {
   </div>
 
   <div id="contact" data-section="contact">
-      <ContactSplit
-      useInvertedBackground={false}
-      background={{ variant: "plain" }}
+    <ContactForm 
       tag="聯絡我們"
-      title="即刻諮詢自動化解決方案"
-      description="地址：鳳源區東北街187號 | 電話：04-25232986 | 電子郵件：fungyuan@fungyuan.com"
-      imageSrc="http://img.b2bpic.net/free-photo/empty-underground-parking-garage_1127-3162.jpg"
-      mediaAnimation="slide-up"
-      buttonText="發送諮詢信件"
-      onSubmit={(email) => window.location.href = 'mailto:fungyuan@fungyuan.com?subject=Inquiry from Website'}
+      title="發送諮詢信件"
+      description="請填寫您的資料，我們將儘速與您聯絡。"
+      buttonText="送出信件"
+      onSubmit={(email) => console.log("Consultation email sent:", email)}
     />
   </div>
 
