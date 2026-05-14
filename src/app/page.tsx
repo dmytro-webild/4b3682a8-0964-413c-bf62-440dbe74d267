@@ -45,8 +45,7 @@ export default function LandingPage() {
             logoText="鋒源機械有限公司"
             description="專業優先、品質優先與服務優先 鋒源以德國尖端機器人技術與務實精神，引領自動化包裝工業。"
             buttons={[
-              { text: "聯絡我們", href: "#contact" },
-              { text: "Instagram", href: "https://www.instagram.com/_yxnnnz/" }
+              { text: "聯絡我們", href: "#contact" }
             ]}
             imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DZm6GBhevTmhaJGNXipDviX179/uploaded-1778668282599-8805p6c6.png"
             mediaAnimation="slide-up"
@@ -140,7 +139,7 @@ export default function LandingPage() {
             logoText="鋒源機械有限公司"
             columns={[
               { title: "關於我們", items: [{ label: "核心理念", href: "#about" }, { label: "品牌故事", href: "#" }] },
-              { title: "產品系列", items: [{ label: "FY 系列", href: "#product" }, { label: "FASP 系列", href: "#product" }, { label: "Instagram", href: "https://www.instagram.com/_yxnnnz/" }] }
+              { title: "產品系列", items: [{ label: "FY 系列", href: "#product" }, { label: "FASP 系列", href: "#product" }] }
             ]}
             copyrightText="© 2025 鋒源機械有限公司 | 務實管理與高品質"
           />
