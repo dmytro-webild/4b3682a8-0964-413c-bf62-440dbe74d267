@@ -36,12 +36,12 @@ export default function LandingPage() {
               { name: "聯絡我們", id: "contact" },
             ]}
             brandName="鋒源機械"
+            button={{ text: "聯絡諮詢", href: "#contact" }}
           />
         </div>
 
         <div id="hero" data-section="hero">
           <HeroLogoBillboard
-            background={{ variant: "gradient-bars" }}
             logoText="鋒源機械有限公司"
             description="專業優先、品質優先與服務優先 鋒源以德國尖端機器人技術與務實精神，引領自動化包裝工業。"
             buttons={[]}
