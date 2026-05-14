@@ -47,6 +47,7 @@ export default function LandingPage() {
             buttons={[]}
             imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DZm6GBhevTmhaJGNXipDviX179/uploaded-1778668282599-8805p6c6.png"
             mediaAnimation="slide-up"
+            background={{ variant: "plain" }}
           />
         </div>
 
