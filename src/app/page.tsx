@@ -36,7 +36,6 @@ export default function LandingPage() {
               { name: "聯絡我們", id: "contact" },
             ]}
             brandName="鋒源機械"
-            button={{ text: "立即諮詢", href: "#contact" }}
           />
         </div>
 
